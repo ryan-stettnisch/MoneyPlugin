@@ -1,0 +1,25 @@
+name: MoneyPlugin
+version: '${project.version}'
+main: me.ryans.moneyplugin.MoneyPlugin
+api-version: 1.19
+commands:
+  exchange:
+    description: Exchanges diamonds for money.
+    usage: /<command>
+    aliases: exchangeme
+  totalbalance:
+    description: Total balance of paper money.
+    usage: /<command>
+    aliases: totalBalance, TotalBalance, Totalbalance
+  exchangerate:
+    description: Provides the current exchange rate between diamonds and cash.
+    usage: /<command>
+    aliases: exchangeRate, Exchangerate, ExchangeRate
+  balance:
+    description: Returns your current balance.
+    usage: /<command>
+    aliases: bal
+  convert:
+    description: Turns paper bills into other paper bills.
+    usage: /<command>
+    aliases: convertme
